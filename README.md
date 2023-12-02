@@ -149,3 +149,17 @@ Passing data to a react component is called props
 
 // here name is a prop
 ```
+
+### Hooks
+
+Hooks are normal javascript functions , that gives a utility , eg setting state , showing effect
+
+`useEffect` , `useState` , `useLayoutEffect` are some of the examples of hooks
+
+As soon as a state variable changes react will re-render itself , so the UI layer is always in sync with the data layer
+
+## Reconcillation and Diffing
+
+Whenever you have a UI , react creates a virtual dom out of it, **Virtual dom** is a representation of the actual dom
+
+**Diffing algorithm** basically finds out the difference between two virtual doms
