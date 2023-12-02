@@ -149,3 +149,9 @@ Passing data to a react component is called props
 
 // here name is a prop
 ```
+
+### Hooks
+
+Hooks are normal javascript functions , that gives a utility , eg setting state , showing effect
+
+`useEffect` , `useState` , `useLayoutEffect` are some of the examples of hooks
