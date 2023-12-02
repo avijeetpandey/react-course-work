@@ -1,0 +1,25 @@
+{
+  "name": "react-food-delivery",
+  "version": "1.0.0",
+  "description": "A react app to develop food delivery app using react",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/avijeetpandey/react-course-work.git"
+  },
+  "keywords": [
+    "react",
+    "jest",
+    "javascript",
+    "nodejs"
+  ],
+  "author": "Avijeet Pandey",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/avijeetpandey/react-course-work/issues"
+  },
+  "homepage": "https://github.com/avijeetpandey/react-course-work#readme"
+}
