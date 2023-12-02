@@ -2,9 +2,10 @@
   "name": "react-food-delivery",
   "version": "1.0.0",
   "description": "A react app to develop food delivery app using react",
-  "main": "app.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "start": "npx parcel index.html",
+    "build": "npx parcel build index.html"
   },
   "repository": {
     "type": "git",
@@ -21,5 +22,16 @@
   "bugs": {
     "url": "https://github.com/avijeetpandey/react-course-work/issues"
   },
-  "homepage": "https://github.com/avijeetpandey/react-course-work#readme"
+  "homepage": "https://github.com/avijeetpandey/react-course-work#readme",
+  "devDependencies": {
+    "parcel": "^2.10.3",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "browserslist": [
+    "last 2 Chrome version"
+  ]
 }
