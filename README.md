@@ -110,3 +110,30 @@ A **bundler** has the following responsibilites
 - Diagnostics
 - Better error handling
 - Gives way to host and test on https
+
+### JSX
+
+**Note** `JSX and React are different they are not same, we can write react apps without jsx as well`
+
+`JSX` is a html like convention that allows us to merge writting **HTML** and **Javascript** together, JSX is just a syntax that boils down to a react element, its not HTML
+
+JSX - Transpiled(Babel) - > converted to React.createElement() -> renders in the browser
+
+### Components in react
+
+There are two types of components in react eco system
+
+- Class based components
+- Functional components ( normal javascript function)
+  - Whenever you are creating a component always start with **Capital letter** or you will get an error
+
+**Example**
+
+```js
+function Component() {
+  return <div>Hello world</div>;
+}
+
+// usage
+<Component />;
+```
