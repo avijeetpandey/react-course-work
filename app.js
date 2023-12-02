@@ -1,3 +1,6 @@
+import React from "react";
+import ReactDOM from "react-dom";
+
 /**
  * <div id="parent">
  *     <div id="child">
@@ -7,7 +10,6 @@
  * </div>
  */
 
-// React.createElement returns an object
 const parent = React.createElement(
   "div",
   { id: "parent" },

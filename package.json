@@ -21,5 +21,12 @@
   "bugs": {
     "url": "https://github.com/avijeetpandey/react-course-work/issues"
   },
-  "homepage": "https://github.com/avijeetpandey/react-course-work#readme"
+  "homepage": "https://github.com/avijeetpandey/react-course-work#readme",
+  "devDependencies": {
+    "parcel": "^2.10.3"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
 }
