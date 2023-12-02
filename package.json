@@ -2,7 +2,6 @@
   "name": "react-food-delivery",
   "version": "1.0.0",
   "description": "A react app to develop food delivery app using react",
-  "main": "app.js",
   "scripts": {
     "test": "jest"
   },

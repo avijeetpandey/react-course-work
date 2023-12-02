@@ -1,5 +1,5 @@
 import React from "react";
-import ReactDOM from "react-dom";
+import ReactDOM from "react-dom/client";
 
 /**
  * <div id="parent">
@@ -18,8 +18,6 @@ const parent = React.createElement(
     React.createElement("h2", {}, "H2 tags")
   ])
 );
-
-console.log(parent);
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(parent);
