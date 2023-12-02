@@ -110,3 +110,8 @@ A **bundler** has the following responsibilites
 - Diagnostics
 - Better error handling
 - Gives way to host and test on https
+
+### JSX
+
+**Note** `JSX and React are different they are not same, we can write react apps without jsx as well`
+`JSX` is a html like convention that allows us to merge writting **HTML** and **Javascript** together
