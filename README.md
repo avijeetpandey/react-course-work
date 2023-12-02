@@ -137,3 +137,15 @@ function Component() {
 // usage
 <Component />;
 ```
+
+### Props
+
+Passing data to a react component is called props
+
+**Example**
+
+```js
+<Component name="prop name">
+
+// here name is a prop
+```
