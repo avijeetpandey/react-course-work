@@ -86,3 +86,27 @@ root.render(parent);
 ```
 
 A react element is just an object with props and props are the objects we pass
+
+## Bundler
+
+A bundler is a piece of software that makes the app ready for production
+
+A **bundler** has the following responsibilites
+
+- Treeshaking
+- Minifying JS , CSS and HTML code
+- Resizing and optimising the images
+- Content hashing
+- Automatic code splitting
+- Compression of the application
+- Code transpilation
+- Differential bundling
+- Workers etc
+- Seperate Dev and production build
+- Local server
+- HMR - Hot module replacement
+- File watching algorithm
+- Code splitting
+- Diagnostics
+- Better error handling
+- Gives way to host and test on https
