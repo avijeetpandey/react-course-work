@@ -1,0 +1,28 @@
+.header_container {
+  display: flex;
+  padding-right: 16px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  height: 80px;
+  width: 80px;
+}
+
+.logo:hover,
+.nav_items:hover {
+  cursor: pointer;
+}
+
+.nav_items {
+  display: flex;
+  gap: 12px;
+  list-style-type: none;
+}
+
+.logo_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
