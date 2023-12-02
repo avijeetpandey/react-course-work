@@ -1,0 +1,9 @@
+.app_container {
+  display: flex;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
