@@ -9,7 +9,7 @@ The core of the react is divided into two things `React` and `ReactDOM` , the fi
   - The attributed to the tag
     - id, className , etc
   - What to put inside the element , if there are multiple elements , it can take array arguments as well
-- `render` - renders the element into the browser DOM
+- `render` - renders the element into the browser DOM, also render element replaces the content if already present, it will not append content
 
 **Example**
 
